@@ -1,0 +1,39 @@
+.jumbotron {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 5vh 0 0 0;
+    background: url("../img/grafika2.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.przycisk {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    background-color: aqua;
+    font-size: large;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.przycisk:hover {
+    background-color: chartreuse;
+    transition: linear;
+    border: black 1px solid;
+}
+
+.gallery img {
+    margin: 1px;
+    float: left;
+    width: 49%;
+    min-height: 300px;
+    cursor: pointer;
+    opacity: .7;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    transition: .5s;
+}

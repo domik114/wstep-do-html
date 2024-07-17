@@ -1,0 +1,14 @@
+.margines { margin-top: 70px; }
+
+.content .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+    width: 50%;
+    order: 1;
+}

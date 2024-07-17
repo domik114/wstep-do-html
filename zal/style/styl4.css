@@ -1,0 +1,217 @@
+[class^="btn-"] {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 15px 30px;
+    min-width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px solid;
+    cursor: pointer;
+    background-color: inherit;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: .4s;
+    
+}
+
+[class^="btn-"]:hover {
+    background-position: 0 100%;
+    color: #fff;
+}
+
+.btn-purple {
+    color: #8e44ad;
+    border-radius: #8e44ed;
+    background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+}
+
+.btn-yellow {
+    color: #f1c40f;
+    border-radius: #f1c40f;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+}
+
+.btn-blue {
+    color: #3498db;
+    border-radius: #3498db;
+    background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+}
+
+.ikony .star8 {
+    display: inline-block;
+    margin: 2em;
+    transform: rotate(22deg);
+    transition: background linear .3s;
+}
+
+.ikony .star8::before {
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    top: -5px;
+    transform: rotate(45deg);
+}
+
+.ikony .star8, .ikony .star8::before, .ikony .fa {
+    width: 80px;
+    height: 80px;
+}
+
+.ikony .gold, .ikony .gold::before {
+    border: 6px solid #ffc107;
+}
+
+.ikony .orange, .ikony .orange::before {
+    border: 6px solid #fd7e33;
+}
+
+.ikony .blue, .ikony .blue::before {
+    border: 6px solid blue;
+}
+
+.ikony .fa {
+    margin: 0;
+    position: absolute;
+    background-color: #fff;
+    font-size: 60px;
+}
+
+.ikony .fa::before {
+    transform: rotate(-22deg);
+    position: absolute;
+    margin: 10px;
+}
+
+.ikony .gold:hover::before, .ikony .gold:hover, .ikony .fa-hand-o-up {
+    background-color: #ffc107;
+}
+
+.ikony .orange:hover::before, .ikony .orange:hover, .ikony .fa-diamond {
+    background-color: #fd7e33;
+}
+
+.ikony .blue:hover::before, .ikony .blue:hover, .ikony .fa-flask {
+    background-color: blue;
+}
+
+.ikony .gold:hover::before, .ikony .orange:hover::before, .ikony .blue:hover::before, .ikony .gold, .ikony .fa {
+    transition: ease-in-out .3s;
+}
+
+.hello {
+    color: #505050;
+    font-size: 40px;
+    text-align: center;
+}
+
+.social {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-btn {
+    height: 75px;
+    width: 75px;
+    border: 0;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-twitter { color: #4099FF; }
+
+.fa-facebook { color: #3B5998; }
+
+.fa-google-plus { color: #DB5A3C; }
+
+.fa-instagram { color: #5C3D2E; }
+
+.fa-github { color: #4183C4; }
+
+.icon-btn:hover { transform: scale(1.10); }
+
+/*.icon-btn:hover, .icon-btn:hover .fa-twitter:hover {
+    background-color: #4099FF;
+    color: #fff;
+}
+
+.icon-btn:hover, .icon-btn:hover .fa-facebook:hover {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+.icon-btn:hover, .icon-btn:hover .fa-google-plus:hover {
+    background-color: #DB5A3C;
+    color: #fff;
+}
+
+.icon-btn:hover, .icon-btn:hover .fa-instagram:hover {
+    background-color: #5C3D2E;
+    color: #fff;
+}
+
+.icon-btn:hover, .icon-btn:hover .fa-github:hover {
+    background-color: #4183C4;
+    color: #fff;
+}*/
+
+.icon-btn-facebook, .icon-btn-twitter,.icon-btn-instagram, .icon-btn-youtube  {
+    height: 75px;
+    width: 75px;
+    border: 0;
+    margin: 1% 1% 1% 1%;
+    font-size: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.icon-btn-twitter:hover{
+    background-color: #4099FF;
+}
+.icon-btn-twitter:hover .fa-twitter {
+    color: white;
+}
+
+.icon-btn-facebook:hover{
+    background-color: #3B5998;
+}
+.icon-btn-facebook:hover .fa-facebook {
+    color: white;
+}
+
+.icon-btn-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.icon-btn-instagram:hover .fa-instagram {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-btn-youtube:hover{
+    background-color: #FF0000;
+}
+.icon-btn-youtube:hover .fa-youtube {
+    color: white;
+}

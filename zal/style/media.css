@@ -1,0 +1,196 @@
+@media screen and (max-width: 770px) {
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #000;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    img { width: 100%; }
+    
+    .header {
+        text-align: center;
+        padding: 5px;
+        background-color: #380151;
+        color: white;
+    }
+    
+    .footer {
+        width: 760px;
+        background-color: #380151;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        background-color: #000;
+        padding: 0;
+    }
+
+    .paragraf { text-align: center; }
+
+    .gallery img {
+        margin: 0;
+        margin-top: 5px;
+        float: left;
+        min-width: 760px;
+        min-height: 400px;
+        cursor: pointer;
+        opacity: .7;
+        padding: 0;
+    }
+
+    .srodek { text-align: center; }
+
+    .gora { clear: both; }
+
+    .srodekb { clear: both; }
+
+    .dol { clear: both; }
+
+    .przyciski { display: inline-block; }
+
+    .btn-purple {
+        min-width: 150px;
+        margin-left: 140px;
+    }
+
+    .btn-yellow {
+        min-width: 150px;
+        margin-left: 5px;
+    }
+
+    .btn-blue {
+        min-width: 150px;
+        margin-left: 5px;
+    }
+
+    .linki { text-align: center; }
+
+    .kliknij { margin-left: 350px; }
+
+    .col-m-6 { width: 99%; }
+
+    .margines { margin-top: 0; }
+
+    .content .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    
+    .item {
+        width: 100%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #000;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    img {  width: 100%; }
+    
+    .header {
+        text-align: center;
+        padding: 5px;
+        background-color: #380151;
+        color: white;
+    }
+    
+    .footer {
+        max-width: 364px !important;
+        background-color: #380151;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        background-color: #000;
+        padding: 0;
+    }
+
+    .paragraf { text-align: center; }
+
+    .gallery img {
+        margin: 0;
+        margin-top: 5px;
+        float: left;
+        min-width: 375px;
+        min-height: 300px;
+        cursor: pointer;
+        opacity: .7;
+        padding: 0;
+    }
+
+    .srodek { text-align: center; }
+
+    .gora { clear: both; }
+
+    .srodekb { clear: both; }
+
+    .dol { clear: both; }
+
+    .przyciski { display: inline-block; }
+
+    .btn-purple {
+        min-width: 300px;
+        margin-left: 36px;
+    }
+
+    .btn-yellow {
+        min-width: 300px;
+        margin-left: 36px;
+    }
+
+    .btn-blue {
+        min-width: 300px;
+        margin-left: 36px;
+    }
+
+    .linki {
+        text-align: center;
+    }
+
+    .kliknij {
+        margin-left: 155px;
+    }
+
+    .col-m-6 {
+        width: 99%;
+    }
+}
